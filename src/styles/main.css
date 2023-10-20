@@ -229,6 +229,7 @@ footer {
   color: #24616d;
 }
 
+/* 768px - 899px */
 @media screen and (min-width: 768px) {
   .post1 {
     width: 80%;
@@ -238,7 +239,7 @@ footer {
   }
 }
   
-
+/* 900px - full */
 @media screen and (min-width: 900px) {
   .header__menu {
     display: none;
@@ -264,7 +265,8 @@ footer {
 
   .post1 {
     width: 65%;
-    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
